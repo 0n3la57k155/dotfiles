@@ -80,3 +80,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export EDITOR="vim"
+
+# for java
+source $HOME/.jrc
+export STAGING_DIR="$HOME/openwrt"
+export PATH="$PATH:$STAGING_DIR/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
